@@ -32,7 +32,7 @@ vegDropZone.addEventListener('drop', (event) => {
 
 
 function fetchItems(){
-    fetch("http://localhost:3000/data")//TODO: what to put here
+    fetch("https://brody-clark.github.io/MET-CS-601-HW2/data.json")
     .then((response) => response.json())
     .then((body) => loadItems(body));
 }
