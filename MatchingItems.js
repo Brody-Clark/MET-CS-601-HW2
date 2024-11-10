@@ -58,8 +58,13 @@ function loadItems(body) {
     newItem.setAttribute('draggable', 'true');
     newItem.setAttribute('class', 'draggable-item');
     newItem.setAttribute('id', body.items[food].id);
-    newItem.textContent = body.items[food].name;
+    //newItem.textContent = body.items[food].name;
 
+    let imageItem = document.createElement("img");
+    imageItem.setAttribute('src', body.items[food].img);
+    imageItem.setAttribute('alt', body.items[food].name);
+
+    newItem.appendChild(imageItem);
     itemContainer.appendChild(newItem);
 
     newItem.addEventListener('dragstart', (event) => {
