@@ -1,84 +1,82 @@
-{
-    "items": [
-      {
-        "id": 1,
-        "name": "Apple",
-        "category": "fruit"
-      },
-      {
-        "id": 2,
-        "name": "Banana",
-        "category": "fruit"
-      },
-      {
-        "id": 3,
-        "name": "Cherry",
-        "category": "fruit"
-      },
-      {
-        "id": 4,
-        "name": "Date",
-        "category": "fruit"
-      },
-      {
-        "id": 5,
-        "name": "Elderberry",
-        "category": "fruit"
-      },
-      {
-        "id": 6,
-        "name": "Fig",
-        "category": "fruit"
-      },
-      {
-        "id": 7,
-        "name": "Grape",
-        "category": "fruit"
-      },
-      {
-        "id": 8,
-        "name": "Honeydew",
-        "category": "fruit"
-      },
-      {
-        "id": 9,
-        "name": "Asparagus",
-        "category": "vegetable"
-      },
-      {
-        "id": 10,
-        "name": "Broccoli",
-        "category": "vegetable"
-      },
-      {
-        "id": 11,
-        "name": "Carrot",
-        "category": "vegetable"
-      },
-      {
-        "id": 12,
-        "name": "Daikon",
-        "category": "vegetable"
-      },
-      {
-        "id": 13,
-        "name": "Eggplant",
-        "category": "vegetable"
-      },
-      {
-        "id": 14,
-        "name": "Fennel",
-        "category": "vegetable"
-      },
-      {
-        "id": 15,
-        "name": "Garlic",
-        "category": "vegetable"
-      },
-      {
-        "id": 16,
-        "name": "Horseradish",
-        "category": "vegetable"
-      }
-    ]
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "category": "fruit"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "category": "fruit"
+  },
+  {
+    "id": 3,
+    "name": "Cherry",
+    "category": "fruit"
+  },
+  {
+    "id": 4,
+    "name": "Date",
+    "category": "fruit"
+  },
+  {
+    "id": 5,
+    "name": "Elderberry",
+    "category": "fruit"
+  },
+  {
+    "id": 6,
+    "name": "Fig",
+    "category": "fruit"
+  },
+  {
+    "id": 7,
+    "name": "Grape",
+    "category": "fruit"
+  },
+  {
+    "id": 8,
+    "name": "Honeydew",
+    "category": "fruit"
+  },
+  {
+    "id": 9,
+    "name": "Asparagus",
+    "category": "vegetable"
+  },
+  {
+    "id": 10,
+    "name": "Broccoli",
+    "category": "vegetable"
+  },
+  {
+    "id": 11,
+    "name": "Carrot",
+    "category": "vegetable"
+  },
+  {
+    "id": 12,
+    "name": "Daikon",
+    "category": "vegetable"
+  },
+  {
+    "id": 13,
+    "name": "Eggplant",
+    "category": "vegetable"
+  },
+  {
+    "id": 14,
+    "name": "Fennel",
+    "category": "vegetable"
+  },
+  {
+    "id": 15,
+    "name": "Garlic",
+    "category": "vegetable"
+  },
+  {
+    "id": 16,
+    "name": "Horseradish",
+    "category": "vegetable"
   }
+]
