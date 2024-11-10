@@ -39,6 +39,8 @@ function checkForCompletion() {
   if (itemContainer.children.length <= 0) {
     foodContainer.style.display = "none";
     completionMsg.style.display = "block";
+    vegDropZone.setAttribute('complete',"true");//TODO:
+
   }
 }
 function fetchItems() {
@@ -63,6 +65,7 @@ function loadItems(body) {
     let imageItem = document.createElement("img");
     imageItem.setAttribute('src', body.items[food].img);
     imageItem.setAttribute('alt', body.items[food].name);
+    imageItem.setAttribute('id', body.items[food].id);
 
     newItem.appendChild(imageItem);
     itemContainer.appendChild(newItem);

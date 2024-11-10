@@ -1,35 +1,46 @@
 /* Styling for the drop zones */
 .drop-zone {
-    width: 500px;
-    height: 200px;
+    display: flexbox;
+    flex-direction: column;
+    width: 70%;
+    min-height: 200px;
     border: 2px dashed #7a7a7a;
     border-radius: 10px;
     text-align: center;
-    color: #7a7a7a;
-    margin: 20px auto;
+    color: #141414;
+    margin: 10px auto;
+    background-color:#ffffff;
     transition: all 0.3s ease;
 }
-
+.drop-zone[complete]{
+    background-color:#029c0f;
+}
+body{
+    background-color: rgb(156, 191, 238);
+}
 .drop-zone.drag-over {
-    border: 2px solid #009688;
+    border: 2px solid #029c0f;
     background-color: #e0f2f1;
-    color: #00695c;
+    color: #029c0f;
 }
 
-/* Styling for draggable items and their container */
 .items-box {
-    width: 500px;
+    align-items: center;
+    display: flex;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px auto;
     background-color: #fafafa;
     text-align: center;
 }
 
+ul.items-box > li{
+    width: 50%;
+}
+
 .draggable-item {
-    margin: 10px;
-    padding: 8px 15px;
+    margin: 5px;
+    padding: 5px 5px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -41,8 +52,48 @@
     opacity: 0.5;
 }
 
-.container {
-    position: relative;
-    width: 600px;
-    float: left;
+.container{
+    display: flexbox;
+    flex-direction: column;
+}
+.food-picker{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    direction: ltr;
+    overflow: auto;
+    max-width: 100%;
+    
+}
+.completion-msg{
+    display: none;
+}
+.success-msg{
+    font-family: "Fontdiner Swanky", serif;
+    padding-top: 10px;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.main-title{
+    font-family: "Fontdiner Swanky", serif;
+    font-size: 60px;
+    color: #141414;
+    padding-top: 40px;
+    text-align: center;
+}
+.food-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 60%;
+}
+.container-dropboxes{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
