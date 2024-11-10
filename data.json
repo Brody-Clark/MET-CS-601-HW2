@@ -3,81 +3,91 @@
     {
       "id": 1,
       "name": "Apple",
+      "img":"images/Apple_Green.png",
       "category": "fruit"
     },
     {
       "id": 2,
       "name": "Banana",
+      "img":"images/Banana_Peeled.png",
       "category": "fruit"
     },
     {
       "id": 3,
       "name": "Cherry",
+      "img":"images/herry.png",
       "category": "fruit"
     },
     {
       "id": 4,
-      "name": "Date",
+      "name": "Lemon",
+      "img":"images/Lemon.png",
       "category": "fruit"
     },
     {
       "id": 5,
-      "name": "Elderberry",
+      "name": "Blueberry",
+      "img":"images/Blueberry.png",
       "category": "fruit"
     },
     {
       "id": 6,
-      "name": "Fig",
+      "name": "Pear",
+      "img":"images/Pear.png",
       "category": "fruit"
     },
     {
       "id": 7,
       "name": "Grape",
+      "img":"images/Grapes_Black.png",
       "category": "fruit"
     },
     {
       "id": 8,
-      "name": "Honeydew",
+      "name": "Pineapple",
+      "img":"images/Pineapple.png",
       "category": "fruit"
     },
     {
       "id": 9,
-      "name": "Asparagus",
+      "name": "Potato",
+      "img":"images/Potato.png",
       "category": "vegetable"
     },
     {
       "id": 10,
-      "name": "Broccoli",
+      "name": "Onion",
+      "img":"images/Onion.png",
       "category": "vegetable"
     },
     {
       "id": 11,
-      "name": "Carrot",
+      "name": "Leek",
+      "img":"images/Leek.png",
       "category": "vegetable"
     },
     {
       "id": 12,
-      "name": "Daikon",
+      "name": "Corn",
+      "img":"images/Corn.png",
       "category": "vegetable"
     },
     {
       "id": 13,
       "name": "Eggplant",
+      "img":"images/Eggplant.png",
       "category": "vegetable"
     },
     {
       "id": 14,
-      "name": "Fennel",
+      "name": "Tomato",
+      "img":"images/Tomato.png",
       "category": "vegetable"
     },
     {
       "id": 15,
-      "name": "Garlic",
-      "category": "vegetable"
-    },
-    {
-      "id": 16,
-      "name": "Horseradish",
+      "name": "Pumpkin",
+      "img":"images/Pumpkin.png",
       "category": "vegetable"
     }
   ]

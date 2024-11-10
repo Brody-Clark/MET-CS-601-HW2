@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Item</title>
+    <title>Food | Drag and Drop</title>
     <link rel="stylesheet" href="layout.css" type="text/css">
 </head>
+
 <body onload="fetchItems()">
-    <div class="container">
-        <div class="items-box">
-            <ul id="draggableItems">
-            </ul>
+    <p class="main-title">Place The Foods In The Correct Containers</p>
+    <div class="main">
+        <!-- food selector -->
+        <div class="food-picker" id="foodContainer">
+            <div class="items-box">
+                <ul class="food-list" id="draggableItems">
+                </ul>
+            </div>
+        </div>
+        <div class="completion-msg" id="completionMsg">
+            <p class="success-msg">Good Job!</p>
+        </div>
+        <div class="container-dropboxes">
+            <div class="container">
+                <div id="fruitDropZone" class="drop-zone">Drop Fruits Here</div>
+            </div>
+            <div class="container">
+                <div id="vegDropZone" class="drop-zone">Drop Vegetables Here</div>
+            </div>
         </div>
     </div>
-    <!-- Drop zones -->
-    <div class="container">
-        <div id="fruitDropZone" class="drop-zone">Drop Fruits Here</div>
-        <div id="vegDropZone" class="drop-zone">Drop Vegetables Here</div>
-    </div>
-    <script src="test.js"></script>
+    <script src="MatchingItems.js"></script>
 </body>
+
 </html>
