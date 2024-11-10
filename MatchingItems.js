@@ -34,7 +34,10 @@ vegDropZone.addEventListener('drop', (event) => {
 function fetchItems(){
     fetch("https://brody-clark.github.io/MET-CS-601-HW2/data.json")
     .then((response) => response.json())
-    .then((body) => loadItems(body));
+    .then((body) => loadItems(body))
+    .catch((error) =>{
+      console.log(error)
+    });
 }
 
 // Loop through json reponse and add new created elements to HTML
