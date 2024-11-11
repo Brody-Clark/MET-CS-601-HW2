@@ -1,4 +1,3 @@
-/* Styling for the drop zones */
 .drop-zone {
     display: flexbox;
     flex-direction: column;
@@ -9,15 +8,18 @@
     text-align: center;
     color: #141414;
     margin: 10px auto;
-    background-color:#ffffff;
+    background-color: #ffffff;
     transition: all 0.3s ease;
 }
-.drop-zone[complete]{
-    background-color:#029c0f;
+
+.drop-zone[complete] {
+    background-color: #029c0f;
 }
-body{
+
+body {
     background-color: rgb(156, 191, 238);
 }
+
 .drop-zone.drag-over {
     border: 2px solid #029c0f;
     background-color: #e0f2f1;
@@ -34,7 +36,7 @@ body{
     text-align: center;
 }
 
-ul.items-box > li{
+ul.items-box>li {
     width: 50%;
 }
 
@@ -52,11 +54,12 @@ ul.items-box > li{
     opacity: 0.5;
 }
 
-.container{
+.container {
     display: flexbox;
     flex-direction: column;
 }
-.food-picker{
+
+.food-picker {
     padding-top: 5%;
     display: flex;
     align-items: center;
@@ -65,12 +68,14 @@ ul.items-box > li{
     direction: ltr;
     overflow: auto;
     max-width: 100%;
-    
+
 }
-.completion-msg{
+
+.completion-msg {
     display: none;
 }
-.success-msg{
+
+.success-msg {
     font-family: "Fontdiner Swanky", serif;
     padding-top: 10px;
     font-size: 48px;
@@ -78,21 +83,23 @@ ul.items-box > li{
     text-align: center;
 }
 
-.main-title{
+.main-title {
     font-family: "Fontdiner Swanky", serif;
     font-size: 60px;
     color: #141414;
     padding-top: 40px;
     text-align: center;
 }
-.food-list{
+
+.food-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     max-height: 60%;
 }
-.container-dropboxes{
+
+.container-dropboxes {
     padding-top: 10%;
     display: grid;
     grid-template-columns: 50% 50%;

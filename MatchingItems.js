@@ -39,8 +39,8 @@ function checkForCompletion() {
   if (itemContainer.children.length <= 0) {
     foodContainer.style.display = "none";
     completionMsg.style.display = "block";
-    vegDropZone.setAttribute('complete',"true");//TODO:
-
+    vegDropZone.setAttribute('complete', "true");
+    fruitDropZone.setAttribute('complete', "true");
   }
 }
 function fetchItems() {
