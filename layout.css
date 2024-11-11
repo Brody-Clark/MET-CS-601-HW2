@@ -1,5 +1,5 @@
 .drop-zone {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     width: 70%;
     min-height: 200px;
@@ -55,7 +55,7 @@ ul.items-box>li {
 }
 
 .container {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
 }
 
