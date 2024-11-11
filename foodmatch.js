@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const VEGETABLE = "vegetable";
 const FRUIT = "fruit";
 const foodMatch = document.getElementById("main");
@@ -48,7 +49,7 @@ function fetchItems() {
     .then((response) => response.json())
     .then((body) => loadItems(body))
     .catch((error) => {
-      console.log(error)
+      console.log(error);
     });
 }
 
@@ -60,7 +61,6 @@ function loadItems(body) {
     newItem.setAttribute('draggable', 'true');
     newItem.setAttribute('class', 'draggable-item');
     newItem.setAttribute('id', body.items[food].id);
-    //newItem.textContent = body.items[food].name;
 
     let imageItem = document.createElement("img");
     imageItem.setAttribute('src', body.items[food].img);
